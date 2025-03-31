@@ -189,3 +189,24 @@ div, p {
     transform: translateX(0);
   }
 }
+
+/* Media queries pour la responsivité */
+@media (max-width: 768px) {
+  #congratulation-text h1 {
+      font-size: 2em; /* Réduit la taille du titre sur les petits écrans */
+  }
+
+  #congratulation-text p {
+      font-size: 1em; /* Réduit la taille du paragraphe sur les petits écrans */
+  }
+}
+
+@media (max-width: 480px) {
+  #congratulation-text h1 {
+      font-size: 1.8em; /* Réduit encore plus la taille du titre sur les très petits écrans */
+  }
+
+  #congratulation-text p {
+      font-size: 0.9em; /* Réduit encore plus la taille du paragraphe sur les très petits écrans */
+  }
+}
